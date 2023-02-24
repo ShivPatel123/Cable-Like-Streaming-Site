@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shows</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+    <div id = "header">
+
+        <img id = "logo" src = "images/Logo.png">
+
+    </div>
+    <video controls id = "player" autoplay>Video
+    </video>
+
+    <!-- <iframe id="player" scrolling="no" frameBorder="0" allow="autoplay">​…​</iframe> -->
+    <!-- <div id = channelDetails>Anime ></div> -->
+    <form>  
+        <select id = "channelDetails" onchange = "show_hide()" >  
+        <option> Comedy ></option>  
+        <option> Anime ></option>  
+        <option> Disney ></option>  
+        <option> Cartoons ></option>
+        </select>  
+        </form>  
+    <div id = "labels">
+    <div id = "nowPlayingLabel">Now Playing</div>
+    <div id = "nextUpLabel">Next Up</div>
+    </div>
+    
+    <div id = "channelList">
+        <div id = "nowPlaying"></div>
+        <div id = "divider"></div>
+        <div class = "nextUp" id = "nextUp1"></div>
+        <div class = "nextUp" id = "nextUp2"></div>
+        <div class = "nextUp" id = "nextUp3"></div>
+        <div class = "nextUp" id = "nextUp4"></div>
+        <div class = "nextUp" id = "nextUp5"></div>
+    </div>
+    <div id = "background"></div>
+    <div id = "showDetails">
+        <div id = "title"></div>
+        <div id = "description"></div>
+    </div>
+    <script src = "app.js"></script>
+</body>
+</html>
