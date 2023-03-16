@@ -2,4 +2,8 @@
 
 *For Educational and Research Purposes Only*<br />
 Hello,<br />
-This is a site I made using HTML, CSS, and vanilla JavaScript to make use of the consumet api and give an example of a more effective way of streaming shows. I modeled it off of cable #television in which the user chooses a channel and shows of that category play one after the other. <br /><image src = "images/Screenshot 2023-02-24 at 1.17.44 AM.png" style = "width: 700px;">
+This site is a dynamic and responsive streaming platform that showcases how APIs can be leveraged to provide an engaging user experience. With a focus on television-like channel browsing, users can easily choose a channel and sit back as the shows of that category play one after the other. The platform is built using HTML, CSS, and vanilla JavaScript, and it utilizes the Consumet API to retrieve and display content.
+
+One of the key strengths of this platform is its simplicity and ease of use. Users can quickly navigate through channels and enjoy a steady stream of content without having to manually search and select each individual show. This makes the platform ideal for those who want a hassle-free streaming experience.
+
+Overall, this project highlights the power and potential of APIs in creating engaging user experiences. It also showcases my practice in using HTML, CSS, and vanilla JavaScript to build dynamic and responsive web applications that cater to a wide range of users. <br /><image src = "images/Screenshot 2023-02-24 at 1.17.44 AM.png" style = "width: 700px;">
